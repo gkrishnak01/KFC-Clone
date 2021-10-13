@@ -1,0 +1,71 @@
+.navbar
+{
+    height: 6.5%;
+    background-color:black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 45px;
+    max-height: 66px;
+
+}
+
+.navbarContainer
+{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    min-width: 450px;
+    margin-left: 17%;
+    height: 100%;
+    align-items: center;
+    font-size: 100%;
+    font-weight: 600;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.navbarContainer div
+{
+    cursor: pointer;
+}
+
+.navbarContainerTabs
+{
+    color:#8f8f8f;  
+    white-space: nowrap;
+    margin-right: 20px;
+
+}
+.navbarContainerTabsSelected
+{
+    color:#ffffff;  
+    white-space: nowrap;
+    margin-right: 20px;
+
+}
+
+.navbarContainerTabs:hover
+{
+    color: white;
+}
+
+.navbarButton
+{
+    background-color: #e5002b;
+    width: fit-content;
+    padding: 7px ;
+    font-size: 95%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-weight: 600;
+    color: white;
+    border-radius: 3px;
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+

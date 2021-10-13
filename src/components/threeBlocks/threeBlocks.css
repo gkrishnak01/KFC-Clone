@@ -1,0 +1,20 @@
+.threeBlocks
+{
+    width: 30%;
+    height: 5%;
+    min-height: 50px;
+    margin-left: 39%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1%;
+    
+}
+
+.threeBlocks div
+{
+    height: 75%;
+    width: 9%;
+    background-color: #f64225;
+    margin-right: 8%;
+}

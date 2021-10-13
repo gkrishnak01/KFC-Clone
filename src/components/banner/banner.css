@@ -1,0 +1,138 @@
+.banner
+{
+    width: 66%;
+    min-height: 270px;
+    height: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannerText
+{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bannerImage
+{
+    width: 66%;
+    height: 100%;
+}
+
+.bannerImageImage
+{
+    height: 100%;
+    width: 100%;
+}
+
+.bannerTextHeader
+{
+    height: 10%;
+    width: 100%;
+    text-align: left;
+    padding-top: 2.5%;
+    font-weight: 600;
+    font-size: 120%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 0.5px solid #aeaeae;
+}
+
+.bannerTextContent
+{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+}
+
+.bannerTextContentIndi
+{
+    display: flex;
+    justify-content: flex-start;
+    height: fit-content;
+    margin-bottom: 1%;
+}
+
+.bannerTextFooter
+{
+    height: 12%;
+    width: 100%; 
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.bannerTextIcon1
+{
+    width: 5%;
+    height: 50%;
+    padding-top: 4%;
+    padding-right: 3%;
+}
+
+.bannerTextText1
+{
+    padding-top: 3%;
+    font-weight: 600;
+    color :#e63e32;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bannerTextText2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.bannerTextText2Header
+{
+    margin-top: 2%;
+    text-align: left;
+    padding-top: 3%;
+    font-weight: 600;
+    color :#e63e32;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bannerTextText2Content
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 80%;
+    text-align: left;
+    white-space: nowrap;
+    color : #626262;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bannerTextIcon2
+{
+    width: 3.5%;
+    height: 25%;
+    padding-top: 1.75%;
+    padding-right: 3%;
+    margin-left: 0.5%;
+}
+
+.bannerTextIcon3
+{
+    width: 3.5%;
+    height: 40%;
+    padding-top: 1.75%;
+    padding-right: 3%;
+    margin-left: 0.5%;
+}
+
+.bannerTextFooterCheckbox
+{
+    border: 3px solid white;
+}

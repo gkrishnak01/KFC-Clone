@@ -1,0 +1,11 @@
+.backtotop
+{
+    position: fixed;
+    width: 50px;
+    right: 0;
+    top: 90%;
+}
+
+.backtotop img{
+    width: 30px;
+}

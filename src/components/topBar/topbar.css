@@ -1,0 +1,17 @@
+.topbar
+{
+    display: flex;
+    justify-content: space-between;
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 9%;
+    align-items: center;
+    min-height: 40px;
+    max-height: 66px;
+}
+
+.topbarLogo
+{
+    height: 90%;
+}

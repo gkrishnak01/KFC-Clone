@@ -1,0 +1,19 @@
+.sidebox
+{
+    position: fixed;
+    height: 110px;
+    width: 50px;
+    background-color: #ededed;
+    right: 0;
+    top: 10%;
+    box-shadow: -3px 3px 5px 0 rgb(50 50 50 / 75%);
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebox img{
+    width: 60%;
+}
